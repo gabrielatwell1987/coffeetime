@@ -1,0 +1,25 @@
+{
+  "name": "practical",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "svelte": "^4.0.5",
+    "svelte-yup": "^1.0.5",
+    "vite": "^4.4.5",
+    "yup": "^1.2.0"
+  },
+  "dependencies": {
+    "cypress": "^6.8.0",
+    "cypress-svelte-unit-test": "^3.3.4",
+    "modal-overlay": "^1.0.1",
+    "svelte-inline-svg": "^1.2.0",
+    "svelte-routing": "^2.0.0"
+  }
+}
